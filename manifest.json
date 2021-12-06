@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "FQDNRecoder",
+    "version": "0.1",
+    "description": "表示サイトの通信先のFQDNを集計します。",
+    "devtools_page": "main.html",
+    "permissions": [
+        "<all_urls>",
+        "webRequest"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
